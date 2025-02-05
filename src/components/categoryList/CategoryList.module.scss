@@ -1,0 +1,6 @@
+.artist_category_container {
+	display: grid;
+	grid-template-columns: repeat(4, 1fr);
+	grid-template-rows: repeat(3, 1fr);
+	grid-gap: 40px;
+}

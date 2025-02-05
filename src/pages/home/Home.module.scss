@@ -1,0 +1,69 @@
+.home_root {
+	width: 100vw;
+	height: 100vh;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	.home_content {
+		width: 50%;
+		display: flex;
+		flex-direction: column;
+		gap: 50px;
+		.container {
+			display: flex;
+			justify-content: space-between;
+			align-items: center;
+			gap: 50px;
+			a {
+				width: 400px;
+				height: 500px;
+				transition: box-shadow 1s ease;
+				&:hover {
+					box-shadow: 0px 0px 100px 1px black;
+				}
+				div {
+					height: 80%;
+					background-position: center;
+					background-repeat: no-repeat;
+					&.nav_artists__bg {
+						background-image: url('/assets/home/49d9d05b1f308acd84b9.jpg');
+					}
+					&.nav_pictures__bg {
+						background-image: url('/assets/home/b60adaba0ace2666085a.jpg');
+					}
+				}
+				p {
+					color: dimgray;
+					height: 20%;
+					display: flex;
+					align-items: center;
+					justify-content: end;
+					gap: 5px;
+					text-align: right;
+					font-size: 2rem;
+					padding-right: 2rem;
+					span {
+						font-size: 2.5rem;
+						font-weight: bold;
+					}
+				}
+			}
+		}
+		.settings {
+			text-align: center;
+			a {
+				background-color: #661004;
+				font-weight: bold;
+				color: white;
+				font-size: 35px;
+				letter-spacing: 2px;
+				padding: 2px 40px;
+				box-shadow: 2px 6px 11px 1px rgba(0, 0, 0, 0.7);
+				transition: box-shadow 0.5s ease;
+				&:hover {
+					box-shadow: 1px 1px 11px 1px rgba(0, 0, 0, 0.7);
+				}
+			}
+		}
+	}
+}

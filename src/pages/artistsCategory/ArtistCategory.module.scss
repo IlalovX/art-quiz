@@ -1,0 +1,14 @@
+.artist_category_root {
+	width: 80%;
+	margin: 0 auto;
+	& > header {
+		margin: 20px 0;
+
+		a {
+			background: #661004;
+			color: white;
+			padding: 5px 20px;
+			font-size: 30px;
+		}
+	}
+}

@@ -1,0 +1,54 @@
+.card {
+	min-width: 150px;
+	min-height: 200px;
+	position: relative;
+	header {
+		background-color: #7b6a58;
+		padding: 0 20px;
+		height: 20%;
+		display: flex;
+		align-items: center;
+		justify-content: space-between;
+		border-top-left-radius: 30px;
+		a {
+			font-size: 30px;
+			text-decoration: underline;
+			color: white;
+			font-weight: bold;
+			text-transform: capitalize;
+		}
+		span {
+			font-size: 40px;
+			color: #661004;
+			font-weight: bold;
+			border-radius: 50%;
+		}
+	}
+	img {
+		height: 80%;
+		width: 100%;
+		background-size: cover;
+		background-repeat: no-repeat;
+	}
+
+	.score_btn {
+		display: block;
+		width: 100%;
+		position: absolute;
+		bottom: -50px;
+		left: 50%;
+		transform: translateX(-50%);
+		background-color: #661004;
+		color: white;
+		border: none;
+		padding: 8px 16px;
+		font-size: 25px;
+		cursor: pointer;
+		opacity: 0;
+		transition: bottom 0.3s ease, opacity 0.3s ease;
+	}
+	&:hover .score_btn {
+		bottom: 0px;
+		opacity: 1;
+	}
+}

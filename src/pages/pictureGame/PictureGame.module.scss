@@ -1,0 +1,45 @@
+.picture_game {
+	width: 80%;
+	margin: 0px auto;
+	header {
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
+		margin-bottom: 20px;
+		div {
+			display: flex;
+			align-items: center;
+			justify-content: center;
+			gap: 50px;
+			h2 {
+				font-weight: 700;
+				font-size: 40px;
+				text-align: center;
+			}
+			span {
+				font-size: 40px;
+			}
+		}
+		a {
+			font-size: 32px;
+			background-color: #661004;
+			padding: 5px 15px;
+			color: white;
+		}
+	}
+	.answers_conteiner {
+		display: grid;
+		grid-template-columns: 1fr 1fr;
+		grid-template-rows: 300px 300px;
+		grid-gap: 20px;
+		img {
+			height: 100%;
+			width: 100%;
+			object-fit: cover;
+			transition: box-shadow 0.5s ease;
+			&:hover {
+				box-shadow: 0 0 10px 5px black;
+			}
+		}
+	}
+}
