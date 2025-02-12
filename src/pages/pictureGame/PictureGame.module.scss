@@ -28,6 +28,7 @@
 		}
 	}
 	.answers_conteiner {
+		width: 100%;
 		display: grid;
 		grid-template-columns: 1fr 1fr;
 		grid-template-rows: 300px 300px;
@@ -35,7 +36,7 @@
 		img {
 			height: 100%;
 			width: 100%;
-			object-fit: cover;
+			object-fit: fill;
 			transition: box-shadow 0.5s ease;
 			&:hover {
 				box-shadow: 0 0 10px 5px black;

@@ -16,7 +16,7 @@ export const ARTISTS_CATEGORIES: ICategory[] = [
 		img: '10.jpg',
 	},
 	{
-		title: 'still life',
+		title: 'still-life',
 		path: '/artists/still-life/20',
 		img: '20.jpg',
 	},

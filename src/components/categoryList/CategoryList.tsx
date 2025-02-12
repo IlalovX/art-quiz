@@ -10,8 +10,6 @@ function CategoryList({
 	categories: ICategory[]
 	data: ICategoryList
 }) {
-	console.log(data[categories[0].title])
-
 	return (
 		<div className={styles.artist_category_container}>
 			{categories.map(artistCategory => (

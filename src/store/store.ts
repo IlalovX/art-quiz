@@ -1,7 +1,8 @@
 import { configureStore } from '@reduxjs/toolkit'
+import artReducer from './slice/artist'
 
 export const store = configureStore({
-	reducer: {},
+	reducer: { art: artReducer },
 })
 
 // Infer the `RootState` and `AppDispatch` types from the store itself

@@ -1,0 +1,43 @@
+export const modalStyle = {
+	position: 'absolute',
+	top: '50%',
+	left: '50%',
+	transform: 'translate(-50%, -50%)',
+	width: 700,
+	bgcolor: 'background.paper',
+	border: '2px solid #000',
+	p: 4,
+	h2: {
+		mb: 2,
+	},
+	P: {
+		fontSize: 25,
+		fontWeight: 'bold',
+		m: '10px 0',
+	},
+	img: {
+		height: 400,
+		width: '100%',
+		m: '10px 0',
+	},
+	a: {
+		display: 'block',
+		textAlign: 'center',
+		width: '150px',
+		margin: '10px auto',
+		fontSize: '20px',
+		bgcolor: '#661004',
+		p: '2px 5px',
+		color: 'white',
+	},
+	button: {
+		display: 'block',
+		textAlign: 'center',
+		width: '150px',
+		margin: '10px auto',
+		fontSize: '20px',
+		bgcolor: '#661004',
+		p: '2px 5px',
+		color: 'white',
+	},
+}
